@@ -4,3 +4,5 @@ MQTT integration for controlling Nibe heatpumps. Supports HomeAssistant MQTT Aut
 
 The configuration file `/config/nibe-mqtt/config.yaml` is automatically created when the add-on
 starts. You will need to edit it for your system. 
+
+See https://github.com/yozik04/nibe-mqtt/blob/master/README.md

@@ -1,10 +1,9 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add --no-cache python3
-RUN apk add --no-cache py3-pip
+RUN apk add --no-cache python3 py3-pip
 
-RUN pip3 install https://github.com/yozik04/nibe-mqtt/archive/959063cf4838d34d8a65fd0f0a4c37960a01465e.tar.gz
+RUN pip3 install nibe-mqtt@0.1.0
 
 COPY run.sh /home
 RUN chmod a+x /home/run.sh

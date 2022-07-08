@@ -10,7 +10,7 @@ arch:
   - armv7
   - i386
 # host network provides original source UDP address
-host_network: true
+host_network: false
 ports:
   9999/udp: 9999
 services:
