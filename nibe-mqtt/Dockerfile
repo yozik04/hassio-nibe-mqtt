@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 RUN apk add --no-cache python3 py3-pip
 
-RUN pip3 install nibe-mqtt==0.3.1
+RUN pip3 install nibe-mqtt==0.4.0
 
 COPY run.sh /home
 RUN chmod a+x /home/run.sh
